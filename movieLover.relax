@@ -1,0 +1,46 @@
+group: movieLover
+Profile = {
+username, nama_depan, nama_belakang, usia, kode_genre
+'LeviLover18', 'Coky', 'Pardede', 12, 7424
+'PuDidi69', 'Felix', 'Panjaitan', 6, 783
+'YumekoJJ57', 'Yumeko', 'Jabami', 15, 1365
+'Jlaw43', 'Jayden', 'Lawra', 22, 1365
+'hikigaya11', 'Hikigaya', 'Hachiman', 19, 7424
+'erehh123', 'Eren', 'Yeager', 16, 7627
+'uchihaF22', 'Uchiha', 'Fiqri', 20, 8883
+'EiChan16', 'Baal', 'Mon', 11, 783
+'DikRoaster19', 'Dika', 'Diko', 25, 6548
+'wibu123', 'Mas', 'Otaku', 14, 783
+}
+
+
+Movie = {
+kode_genre, judul_film, negara_pembuat, kode_usia, genre
+1365, 'Jumanji : The next level', 'US', 'PG-13', 'Adventure'
+7424, 'One Piece', 'JP', 'PG-13', 'Anime'
+6548, 'My Stupid Boss', 'ID', 'PG-13', 'Comedy'
+8883, '365', 'PL', 'NC-17', 'Romance'
+6548, '21 Jump Street', 'US', 'R', 'Comedy'
+7627, 'Harry Potter', 'GB', 'PG-13', 'Fantasy'
+8883, 'Dilan', 'US', 'PG', 'Romance'
+783, 'Doraemon', 'JP', 'G', 'Animation'
+6548, 'Yowis Ben', 'ID', 'PG-13', 'Comedy'
+7424, 'Kimetsu No Yaiba', 'JP', 'R', 'Anime'
+783, 'Upin Upin : The Movie', 'MY', 'G', 'Animation'
+}
+
+Permission = {
+kode_usia, username
+'R', 'hikigaya11'
+'PG', 'YumekoJJ57'
+'PG-13', 'LeviLover18'
+'G', 'PuDidi69'
+'NC-17', 'Jlaw43'
+'R', 'erehh123'
+'R', 'uchihaF22'
+'NC-17', 'DikRoaster19'
+'PG-13', 'EiChan16'
+'PG', 'wibu123'
+}
+
+
