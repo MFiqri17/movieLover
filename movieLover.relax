@@ -1,4 +1,5 @@
 group: movieLover
+
 Profile = {
 username, nama_depan, nama_belakang, usia, kode_genre
 'LeviLover18', 'Coky', 'Pardede', 12, 7424
@@ -13,8 +14,7 @@ username, nama_depan, nama_belakang, usia, kode_genre
 'wibu123', 'Mas', 'Otaku', 14, 783
 }
 
-
-Movie = {
+Film = {
 kode_genre, judul_film, negara_pembuat, kode_usia, genre
 1365, 'Jumanji : The next level', 'US', 'PG-13', 'Adventure'
 7424, 'One Piece', 'JP', 'PG-13', 'Anime'
@@ -30,17 +30,17 @@ kode_genre, judul_film, negara_pembuat, kode_usia, genre
 }
 
 Permission = {
-kode_usia, username
-'R', 'hikigaya11'
-'PG', 'YumekoJJ57'
-'PG-13', 'LeviLover18'
-'G', 'PuDidi69'
-'NC-17', 'Jlaw43'
-'R', 'erehh123'
-'R', 'uchihaF22'
-'NC-17', 'DikRoaster19'
-'PG-13', 'EiChan16'
-'PG', 'wibu123'
+kode_usia, username, usia
+'R', 'hikigaya11', 19
+'PG', 'YumekoJJ57', 15
+'PG-13', 'LeviLover18', 12
+'G', 'PuDidi69', 6
+'NC-17', 'Jlaw43', 22
+'R', 'erehh123', 16
+'R', 'uchihaF22', 20
+'NC-17', 'DikRoaster19', 25
+'PG-13', 'EiChan16', 11
+'PG', 'wibu123', 14
 }
 
 
